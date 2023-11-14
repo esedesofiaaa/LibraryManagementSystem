@@ -16,6 +16,10 @@ public class Book {
     // Getters and setters
     // ...
 
+    public void setAvailable(boolean available) {
+        isAvailable = available;
+    }
+
     // Additional methods
     public void markAsUnavailable() {
         this.isAvailable = false;
